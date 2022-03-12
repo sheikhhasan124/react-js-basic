@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useState/app.js'
+import App from './useReducer/app.js'
 
 
 
