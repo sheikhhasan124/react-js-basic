@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useReducer/app.js'
+import App from './useReducer/global-state use reducer/app.js'
 
 
 

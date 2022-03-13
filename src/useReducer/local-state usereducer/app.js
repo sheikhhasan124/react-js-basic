@@ -8,7 +8,7 @@ import Real4UseReducer from "./real4-useReducer";
 const App = ()=>{
     return(
         <>
-         <Real4UseReducer />
+        
         
         </>
     )
