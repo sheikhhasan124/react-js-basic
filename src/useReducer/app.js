@@ -1,10 +1,12 @@
 import React from "react";
-import SimpleUseReducer from "./simple-useReducer";
+
+import RealUseReducer from "./real-useReducer";
 
 const App = ()=>{
     return(
         <>
-        <SimpleUseReducer />
+        
+       <RealUseReducer />
         
         </>
     )

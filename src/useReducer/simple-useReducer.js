@@ -18,7 +18,7 @@ const SimpleUseReducer=()=>{
 
 return(
     <>
-    <h2>hhhhh</h2>
+    
   <p>{count}</p>
   <button onClick={()=>{dispatch('increment')}}>increment</button>
   <button onClick={()=>{dispatch('decrement')}}>decrement</button>
