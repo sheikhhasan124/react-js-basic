@@ -22,7 +22,7 @@ const MoremoreRealUseReducer=()=>{
   const [count,dispatch] =  useReducer(reducer,initialValue)
     return(
     <>
-       <h1>more more useReducer</h1> 
+       <h1>real 3 useReducer</h1> 
     <div>
     <p>{count.counter}</p>
        <button onClick={()=>{dispatch({type:'increment', value:1})}}>increment by 1</button>
