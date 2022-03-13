@@ -30,4 +30,6 @@ const App =()=>{
         </>
     )
 }
-export default App;
+// notice
+// to use this code you have move export default App Comment then set up in index.js 
+// export default App;
