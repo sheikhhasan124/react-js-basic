@@ -1,6 +1,21 @@
 import React from "react";
 
-const Card=({head,body,desc})=>{
+const Card2=(props)=>{
+    return(
+        <>
+        <div className="card2">
+            <h2>{props.name}</h2>
+            <p>{props.job}</p>
+        </div>
+        </>
+    )
+}
+export default Card2;
+
+
+
+//card one not dynamic
+/* const CardOne=({head,body,desc})=>{
     return(
         <>
         <div className="card">
@@ -11,4 +26,4 @@ const Card=({head,body,desc})=>{
         </>
     )
 }
-export default Card;
+export default CardOne; */
