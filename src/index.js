@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './useReducer/server-datafetch-usereducer/app.js'
+import App from './componet/app.js'
 
 
 

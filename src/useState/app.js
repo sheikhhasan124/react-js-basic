@@ -6,6 +6,7 @@ const [count,setCount] = useState(0)
 
     return(
         <>
+        
         <h2>bye</h2>
         <button onClick={()=>setCount(count - 1) }>-</button>
         <p>{count}</p>
