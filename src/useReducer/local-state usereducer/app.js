@@ -1,14 +1,19 @@
 import React from "react";
 
-import RealUseReducer from "./real1-useReducer";
-import MoreRealUseReducer from "./real2-useReducer";
-import MoremoreRealUseReducer from "./real3-usereducer";
-import Real4UseReducer from "./real4-useReducer";
+import RealoneUseReducer from "./real1-useReducer";
+import RealtwoUseReducer from "./real2-useReducer";
+import RealthreeUseReducer from "./real3-usereducer";
+import RealfourUseReducer from "./real4-useReducer";
+import SimpleUseReducer from "./simple-useReducer";
 
 const App = ()=>{
     return(
         <>
-        
+        {/* <RealoneUseReducer /> */}
+        {/* <SimpleUseReducer /> */}
+        {/* <RealtwoUseReducer /> */}
+        {/* <RealthreeUseReducer /> */}
+        <RealfourUseReducer />
         
         </>
     )

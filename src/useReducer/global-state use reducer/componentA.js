@@ -1,10 +1,10 @@
-import ComponentB from './componentB.js'
+// import ComponentB from './componentB.js'
  
-const ComponentA=()=>{
-    return(
-        <>
-        <ComponentB />
-        </>
-    )
-}
-export default ComponentA;
+// const ComponentA=()=>{
+//     return(
+//         <>
+//         <ComponentB />
+//         </>
+//     )
+// }
+// export default ComponentA;

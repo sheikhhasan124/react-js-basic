@@ -1,7 +1,9 @@
 import React from "react";
 
 const Card2=(props)=>{
-    return(
+
+return(
+    
         <>
         <div className="card2">
             <h2>{props.name}</h2>
