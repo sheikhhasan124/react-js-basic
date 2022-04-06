@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './render-props/exmple-2-pattern-2/app'
+import App from './react-auth/App'
 
 
 
