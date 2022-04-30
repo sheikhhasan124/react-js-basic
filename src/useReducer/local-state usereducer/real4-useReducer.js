@@ -17,7 +17,7 @@ const RealUseReducer=()=>{
   const [count2,dispatch2] =  useReducer(reducer,initialValue2)
     return(
     <>
-       <h1>real4</h1> 
+       <h1>local usereducer four</h1> 
         <div>
         <p>{count}</p>
        <button onClick={()=>{dispatch('increment')}}>increment</button>

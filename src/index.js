@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './react-auth/App'
+import App from './UserReducerMore/local/App'
 
 
 
