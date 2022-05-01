@@ -1,5 +1,5 @@
 import React, { useReducer } from "react";
-import ComponentA from "./componentB";
+import ComponentB from "./componentB";
 
 export const counterContex = React.createContext();
 
@@ -24,7 +24,7 @@ const App =()=>{
         <h1>global state</h1>
       <div>count:{count}</div>
       <counterContex.Provider value={{countDispatch: dispatch}}>
-           <ComponentA />
+           <ComponentB />
       </counterContex.Provider>
    
         </>

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './UserReducerMore/local/App'
+import App from './useContext/App'
+import { AppProvider } from './useContext/Contect';
 
 
 
@@ -8,7 +9,9 @@ import App from './UserReducerMore/local/App'
 
 ReactDOM.render(
     <div>
-     <App />
+        <AppProvider>
+          <App />
+        </AppProvider>
      
     </div>
     ,
